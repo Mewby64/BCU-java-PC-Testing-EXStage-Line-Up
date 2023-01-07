@@ -446,6 +446,7 @@ public class Opts {
 		JBTN rand = new JBTN("Random");
 		JBTN okay = new JBTN("OK");
 		JBTN cancel = new JBTN("Cancel");
+		JBTN LineUp = new JBTN("Line Up");
 		Timer.manualTick();
 
 		rand.addActionListener(a -> {
